@@ -8,11 +8,54 @@ Tags: Cloths & Onlest.
 
 
 *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
 }
 
-.menu{
-      background-color: cadetblue;
+.mid {
+
+    width: 80%;
+    margin: auto;
+}
+.menu {
+    background-color: #137227;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    position: relative;
+}
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+}
+.menu ul li a:hover {
+    background-color: rgb(197, 176, 137);
+    border-bottom: 3px solid red ;
+}
+.menu ul li ul li {
+    display: block;
+    margin-top: 2px ;
+    background-color: #0fb9b1;
+    transition: 1s;
+}
+.menu ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+    width: 200px;
+}
+.menu ul li:hover ul {
+    display: block;
+}
+.menu ul li ul li:hover {
+    transform: scale(1.2);
 }
