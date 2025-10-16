@@ -5,3 +5,14 @@ Version: 1.1.0
 Description: This is a business website .
 Tags: Cloths & Onlest.
 */
+
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.menu{
+      background-color: cadetblue;
+}
